@@ -44,7 +44,7 @@ import { useAppStore } from '../store';
 const { locale } = useI18n();
 const appStore = useAppStore();
 
-const enableAdvanced = computed(() => appStore.engine === 'SEARXNG');
+const enableAdvanced = computed(() => appStore.engine === 'Ask Kiro');
 
 const quickly: Record<string, string[]> = {
   zh: [
@@ -55,7 +55,7 @@ const quickly: Record<string, string[]> = {
     '《庆余年2》大结局'
   ],
   en: [
-    'What is LLM?',
+    'What is Curry?',
     'What is RAG?',
     'How to use LLM in enterprise?'
   ],

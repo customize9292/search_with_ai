@@ -37,7 +37,7 @@
   {
     "platform": "deepseek",
     "type": "openai",
-    "models": ["deepseek-chat", "deepseek-coder"]
+    "models": ["deepseek-chat"]
   },
   {
     "platform": "chatglm",
